@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+div {
+    padding: 10px 5px 5px;
+    border: 15px solid blue;
+    /* margin: 20px; */
+    margin: 0 auto; /*centrar*/
+    margin: 100px;
+    background-color: cornsilk;
+    text-align: center;
+    /* width: 300px; */
+    /* max-width: 100%; */
+    max-width: 300px;
+    max-height: 100px;
+    /* outline: 10px solid violet;
+    outline-offset: 5px; Solo un valor */
+    box-sizing: border-box;
+}
+.caja1 {
+    padding: 10px 5px 5px;
+    border: 15px solid blue;
+    /* margin: 20px; */
+    /* margin: 0 auto; centrar */
+    margin: 30px;
+    background-color: cornsilk;
+    text-align: center;
+    /* width: 300px; */
+    /* max-width: 100%; */
+    max-width: 300px;
+    max-height: 100px;
+    /* outline: 10px solid violet;
+    outline-offset: 5px; Solo un valor */
+    box-sizing: border-box;
+}
+.caja2 {
+    padding: 10px 5px 5px;
+    border: 15px solid blue;
+    /* margin: 20px; */
+    /* margin: 0 auto; centrar */
+    margin: 20px;
+    background-color: cornsilk;
+    text-align: center;
+    /* width: 300px; */
+    /* max-width: 100%; */
+    max-width: 300px;
+    max-height: 100px;
+    /* outline: 10px solid violet;
+    outline-offset: 5px; Solo un valor */
+    box-sizing: border-box;
+}
+
+/* p.interno {
+    margin: inherit;
+} */
