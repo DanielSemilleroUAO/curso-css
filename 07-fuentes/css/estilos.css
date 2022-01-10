@@ -1,0 +1,78 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sofia&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sofia&effect=shadow-multiple&display=swap');
+
+
+h1 {
+  color: pink;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px gray;
+  font-family: 'Sofia', cursive;
+}
+
+.caja {
+  padding: 5px;
+  width: 40%;
+  height: 80px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+  float: left;
+}
+
+.caja.serif  {
+  background-color: purple;
+}
+
+.fuente-times {
+  /* font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: small-caps;
+  font-size: 20px; */
+  font: italic small-caps bolder 20px Roboto, sans-sarif;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+.fuente-georgia {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  font-variant: normal;
+  font-size: 1.25em; /*16px/16 = 1em Se escale mejor*/
+}
+
+.caja.sans-serif {
+  background-color: seagreen;
+}
+
+.fuente-arial {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 3vw; /* Responsive Cambia de acuerdo al tamaño vw - vh* 1vw = 1%*/
+}
+
+.fuente-verdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+
+.caja.monospace {
+  background-color: palevioletred;
+}
+
+.fuente-courier {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.caja.cursive {
+  background-color: peru;
+}
+
+.fuente-lucida {
+  font-family: "Lucida Handwriting", cursive;
+}
