@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 2px red;
+  color: firebrick;
+}
+
+div.contenedor {
+  display: flex;
+  background-color: firebrick;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  justify-content: center;
+  height: 300px;
+  align-items: center;
+  align-content: center;
+}
+
+div.contenedor > p {
+  background-color: fuchsia;
+  color: whitesmoke;
+  margin: 20px;
+  padding: 15px;
+  font-size: 1.5em;
+}
