@@ -1,0 +1,141 @@
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+div {
+    /* max-width: 400px; */
+    /* width: 50%;
+    border: 3px solid firebrick;
+    margin: auto; */
+    /* position: static; Viene por defecto */
+    /* position: relative; */
+    /* position: fixed; Se ajusta de acuerdo a la pantalla, se mueve */
+    /* position: absolute; Se ajusta de acuerdo al elemento padre y no se mueve */
+    /* position: sticky; Si sale de la pantall funciona como fixed se mueve */
+    /* position: -webkit-sticky;
+    top: 50px; */
+}
+
+div.estatico {
+    position: static;
+    padding: 15px;
+    border: 3px solid greenyellow;
+}
+
+div.relativo {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+}
+
+div.absoluto {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    border: 3px solid cornflowerblue;
+    background-color: whitesmoke;
+}
+
+p {
+    height: 1000px;
+}
+
+div.contenedor {
+    position: relative;
+    border: 3px dashed greenyellow;
+    width: 30%;
+    margin: auto;
+}
+
+img.imagen {
+    width: 100%;
+    opacity: .2;
+}
+
+div.centro {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid blue; */
+    font-size: 25px;
+}
+
+div.contenedor2 {
+    border: 3px dashed green;
+    width: 40%;
+    height: 100px;
+    margin: auto;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+
+div.contenedor3 {
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    overflow: auto;
+}
+
+div.contenedor3.flotado {
+    float: left;
+}
+
+div.contenedor3.flotado.container1 {
+    border: 3px dashed greenyellow;
+    float: left;
+}
+
+div.contenedor3.flotado.container2 {
+    border: 3px dashed blue;
+    float: right;
+}
+
+div.contenedor3.container3 {
+    clear: both;
+    border: 3px dashed darkorange;
+    margin: auto;
+}
+
+div.contenedor4 {
+    overflow: auto;
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid darkturquoise;
+}
+
+span {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    background-color: whitesmoke;
+    border: 1px solid blueviolet;
+    height: 50px;
+    display: inline-block;
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+
+}
+
+.menu li {
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}

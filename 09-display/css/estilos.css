@@ -1,0 +1,29 @@
+h1, div, p {
+    border: 3px solid violet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    /* display: block; */
+    /* display: inline; */
+}
+
+h1 {
+    display: none; /*ocultar quita el espacio*/
+}
+
+p {
+    visibility: hidden; /*oculta pero deja el espacio*/
+}
+
+span {
+    display: block;
+    border: 1px solid blue;
+}
+
+a {
+    display: block;
+}
+
+li {
+    display: inline;
+}
