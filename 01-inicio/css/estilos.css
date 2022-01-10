@@ -1,0 +1,28 @@
+/* selector universal */
+*{
+    background-color: ghostwhite;
+    color: cornflowerblue;
+}
+
+h1, h2, p {
+    color: crimson;
+    text-align: center;
+}
+
+p.centrar {
+    text-align: center;
+}
+
+
+#titulo {
+    color: crimson;
+    text-align: center;
+}
+
+.centrar-texto {
+    text-align: left;
+}
+
+.texto-grande {
+    font-size: 30px;
+}
